@@ -36,6 +36,7 @@ const LineChart = () => {
               "27",
               "28",
               "29",
+              "30",
               "31",
               "1",
               "2",
@@ -45,7 +46,7 @@ const LineChart = () => {
             ],
             datasets: [
               {
-                data: [5, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                data: [5, 3, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0],
                   fill: false,
                   borderColor: 'rgb(75, 192, 192)',
                   tension: 0.1
