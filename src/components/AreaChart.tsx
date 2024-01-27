@@ -35,7 +35,7 @@ const AreaChart = () => {
             ],
             datasets: [
               {
-                data: [25, 75],
+                data: [47, 53],
                 backgroundColor: ["green", "orange"]
               },
             ],
