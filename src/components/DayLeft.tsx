@@ -6,7 +6,7 @@ const DayLeft = () => {
             <div
                 className={`bg-blue-500 p-0.5 text-center text-xs font-medium leading-none text-primary-100 w-1/5`}
                 >
-                14 Days Left
+                10 Days Left
             </div>
         </div>
     );
