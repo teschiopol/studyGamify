@@ -40,7 +40,7 @@ const BarChart = () => {
             ],
             datasets: [
               {
-                data: [5, 3, 0, 0, 0, 4, 1],
+                data: [7, 3, 0, 0, 0, 4, 1],
                 backgroundColor: [
                     'rgba(255, 99, 132, 0.2)',
                     'rgba(255, 159, 64, 0.2)',
