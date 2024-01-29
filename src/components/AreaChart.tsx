@@ -24,6 +24,15 @@ ChartJS.register(
     Title
 );
 
+function calculateTotal() {
+    let total = 23;
+    let done = 13;
+
+    let c = Math.round(done * 100 / total);
+
+    return [c , 100-c];
+}
+
 const AreaChart = () => {
     return (
       <div>
@@ -35,7 +44,7 @@ const AreaChart = () => {
             ],
             datasets: [
               {
-                data: [47, 53],
+                data: calculateTotal(),
                 backgroundColor: ["green", "orange"]
               },
             ],
