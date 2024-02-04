@@ -46,7 +46,7 @@ const LineChart = () => {
             ],
             datasets: [
               {
-                data: [5, 3, 0, 0, 0, 4, 1, 2, 0, 2, 0, 0, 3, 0, 0],
+                data: [5, 3, 0, 0, 0, 4, 1, 2, 0, 2, 0, 0, 4, 1, 0],
                   fill: false,
                   borderColor: 'rgb(75, 192, 192)',
                   tension: 0.1
