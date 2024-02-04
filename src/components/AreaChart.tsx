@@ -26,7 +26,7 @@ ChartJS.register(
 
 function calculateTotal() {
     let total = 23;
-    let done = 20;
+    let done = 22;
 
     let c = Math.round(done * 100 / total);
 
